@@ -192,7 +192,7 @@ def format_video_list(videos: List[VideoInfo], title: str = "视频列表") -> s
     return "\n".join(lines) + "\u200E"
 
 
-@register("3dporndude", "AstrBot Developer", "3DPornDude视频解析插件", "1.0.0")
+@register("3dporndude", "vmoranv", "3DPornDude视频解析插件", "1.0.1")
 class Main(Star):
     """3DPornDude 视频解析插件"""
     
