@@ -1,0 +1,19 @@
+{
+    "proxy": {
+        "description": "代理服务器地址，留空则不使用代理",
+        "type": "string",
+        "hint": "格式: http://127.0.0.1:7890 或 socks5://127.0.0.1:1080",
+        "default": ""
+    },
+    "mosaic_level": {
+        "description": "缩略图马赛克级别",
+        "type": "int",
+        "hint": "0=无马赛克, 1=轻度, 2=中度, 3=重度",
+        "default": 2
+    },
+    "timeout": {
+        "description": "网络请求超时时间（秒）",
+        "type": "int",
+        "default": 30
+    }
+}
